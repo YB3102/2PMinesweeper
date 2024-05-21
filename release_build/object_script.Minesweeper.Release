@@ -1,0 +1,17 @@
+release/gameoverdialog.o
+release/introdialog.o
+release/main.o
+release/mainwindow.o
+release/overlaygraphic.o
+release/player.o
+release/playermarker.o
+release/powerup.o
+release/tile.o
+release/qrc_assets.o
+release/moc_gameoverdialog.o
+release/moc_introdialog.o
+release/moc_mainwindow.o
+release/moc_overlaygraphic.o
+release/moc_playermarker.o
+release/moc_powerup.o
+release/moc_tile.o

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1275</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="playerView">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>80</y>
+      <width>480</width>
+      <height>416</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>30</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start </string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="playerView_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>80</y>
+      <width>480</width>
+      <height>416</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer_label1">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time bonus left: 100s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer_label2">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>40</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Time Bonus left: 100s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer_label1_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P1 Points: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timer_label2_2">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>10</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P2 Points: 0</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1275</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMinesweeper">
+    <property name="title">
+     <string>Minesweeper</string>
+    </property>
+   </widget>
+   <addaction name="menuMinesweeper"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
