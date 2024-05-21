@@ -1,4 +1,4 @@
-#2P Minesweeper 
+# 2P Minesweeper 
 
 This project is a 2P 8x8 GUI Minesweeper game.
 It was developed using Qt Creator C++ on a Windows machine.
